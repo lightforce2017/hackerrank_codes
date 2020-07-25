@@ -69,7 +69,7 @@ Print `Hello, World!` to stdout.
 Hello, World!
 ```
 
-\textcolor{blue}{**My submission**}
+<span style="color:blue">**My submission**</span>
 ```python
 print("Hello, World!")
 ```
