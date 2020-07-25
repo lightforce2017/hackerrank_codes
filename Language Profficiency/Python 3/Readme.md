@@ -69,7 +69,7 @@ Print `Hello, World!` to stdout.
 Hello, World!
 ```
 
-## My submission**
+## My submission
 ```python
 print("Hello, World!")
 ```
@@ -93,7 +93,7 @@ A single line containing a positive integer, ***n***.
 **Constraints**  
 - 1 <= n <= 100
 
-![\Large -1 \le n \le 100](https://latex.codecogs.com/svg.latex?x%3D%5Cfrac%7B-b%5Cpm%5Csqrt%7Bb%5E2-4ac%7D%7D%7B2a%7D)
+![\Large -1 \le n \le 100](https://latex.codecogs.com/svg.latex?-1%20\le%20n%20\le%20100)
 
 **Output Format**
 
@@ -128,7 +128,7 @@ Not Weird
 ***n = 24***   
 ***n > 20*** and ***n*** is even, so it is not weird
 
-## My submission**
+## My submission
 ```python
 #!/bin/python3
 
@@ -147,3 +147,6 @@ if __name__ == '__main__':
     elif (n % 2 == 0 and 2 <= n <= 5) or (n % 2 == 0 and n > 20):
         print("Not Weird")
 ```
+
+---
+
