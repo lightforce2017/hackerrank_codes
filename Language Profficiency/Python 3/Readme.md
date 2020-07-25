@@ -93,7 +93,7 @@ A single line containing a positive integer, ***n***.
 **Constraints**  
 - 1 <= n <= 100
 
-![\Large -1 \le n \le 100](https://latex.codecogs.com/svg.latex?-1%20\le%20n%20\le%20100)
+<img src="https://latex.codecogs.com/svg.latex?-1%20\le%20n%20\le%20100 " /> 
 
 **Output Format**
 
