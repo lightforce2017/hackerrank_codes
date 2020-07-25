@@ -68,3 +68,9 @@ Print `Hello, World!` to stdout.
 ```
 Hello, World!
 ```
+
+\textcolor{blue}{**My submission**}
+```python
+print("Hello, World!")
+```
+
