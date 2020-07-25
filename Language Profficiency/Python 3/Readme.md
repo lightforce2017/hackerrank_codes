@@ -200,3 +200,52 @@ if __name__ == '__main__':
 ```
 
 ---
+
+# Loops
+
+**Task**   
+The provided code stub reads and integer, ***n***, from STDIN. For all non-negative integers ***i<n***, print ***i<sup>2</sup>***.
+
+**Example**
+
+The list of non-negative integers that are less than ***n=3*** is ***[0,1,2]***. Print the square of each number on a separate line.
+```
+0
+1
+4
+```
+
+**Input Format**
+
+The first and only line contains the integer, ***n***.
+
+**Constraints**   
+<img src="https://latex.codecogs.com/svg.latex?1%20\le%20n%20\le%2020 " />
+
+**Output Format**
+
+Print ***n*** lines, one corresponding to each ***i***.
+
+**Sample Input 0**
+```
+5
+```
+
+**Sample Output 0**
+```
+0
+1
+4
+9
+16
+```
+
+## My submission
+```python
+if __name__ == '__main__':
+    n = int(input())
+    for i in range(0, n):
+        print(i**2)
+```
+
+---
