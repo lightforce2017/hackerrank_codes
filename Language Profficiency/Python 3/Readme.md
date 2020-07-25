@@ -69,8 +69,81 @@ Print `Hello, World!` to stdout.
 Hello, World!
 ```
 
-<span style="color:blue">**My submission**</span>
+## My submission**
 ```python
 print("Hello, World!")
 ```
 
+---
+
+# Python If-Else
+
+**Task**  
+Given an integer, ***n***, perform the following conditional actions:
+
+- If ***n*** is odd, print `Weird`
+- If ***n*** is even and in the inclusive range of **2** to **5**, print `Not Weird`
+- If ***n*** is even and in the inclusive range of **6** to **20**, print `Weird`
+- If ***n*** is even and greater than **20**, print `Not Weird`
+
+**Input Format**
+
+A single line containing a positive integer, ***n***.
+
+**Constraints**  
+- 1 <= n <= 100
+
+![\Large -1 \le n \le 100](https://latex.codecogs.com/svg.latex?x%3D%5Cfrac%7B-b%5Cpm%5Csqrt%7Bb%5E2-4ac%7D%7D%7B2a%7D)
+
+**Output Format**
+
+Print `Weird` if the number is weird. Otherwise, print `Not Weird`.
+
+**Sample Input 0**
+```
+3
+```
+
+**Sample Output 0**
+```
+Weird
+```
+
+**Explanation 0**  
+***n = 3***   
+***n*** is odd and odd numbers are weird, so print `Weird`.
+
+**Sample Input 1**
+```
+24
+```
+
+**Sample Output 1**
+```
+Not Weird
+```
+
+**Explanation 1**
+
+***n = 24***   
+***n > 20*** and ***n*** is even, so it is not weird
+
+## My submission**
+```python
+#!/bin/python3
+
+import math
+import os
+import random
+import re
+import sys
+
+
+
+if __name__ == '__main__':
+    n = int(input().strip())
+    if (n % 2 == 1) or (n % 2 == 0 and 6 <= n <= 20):
+        print("Weird")
+    elif (n % 2 == 0 and 2 <= n <= 5) or (n % 2 == 0 and n > 20):
+        print("Not Weird")
+```
